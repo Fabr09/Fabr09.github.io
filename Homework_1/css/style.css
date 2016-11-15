@@ -1,75 +1,9 @@
-body {
-  background: #ddd;
+.wrapper  {
+    display: flex;
+    flex-flow: row wrap ;
+    width: 100%;
+    height: 100%;
 }
-.wrapper {
-  width: 770px;
-  margin: 0 auto;
-  border: 1px solid #000;
-  background: #F5F5F5;
-}
-.inside{
-    width: 600px;
-    height: 100vh;
-    margin: 0 auto;
-    background: #F5F5F5;
-}
-.title {
-    font-family: Arial, sans-serif;
-    font-size: 31px;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 15px 0px 5px;
-}
-.photo {
-    margin-left: 200px;
-    width: 150px;
-    height: 150px;
-    border: 1.5px solid rgba(158, 158, 158, 0.58);
-}
-.photo_text {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    color: rgb(76, 73, 73);
-    padding: 5px 0px;
-    margin-left: 90px;
-    border-bottom: 1.5px solid rgba(158, 158, 158, 0.43);
-}
-.inside_text {
-    font-family: Arial,sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    color: rgb(76, 73, 73);
-    padding: 0px 30px;
-    margin-left: 90px;
-}
-.title_list {
-    font-family: Arial, sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    text-align: left;
-    padding: 15px 0px;
-    margin-left: 90px;
-}
-.inside_list{
-    font-family: Arial, sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    color: rgb(76, 73, 73);
-    padding: 10px;
-}
-.list {
-    list-style-type: disc;
-    padding:0px 30px 15px;
-    margin-left: 90px;
-    font-family: Arial, sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    color: rgb(76, 73, 73);
-    border-bottom: 1.5px solid rgba(158, 158, 158, 0.43);
-}
-.inside_link {
-    font-style: italic;
-    padding: 0px 30px 15px;
-    margin-left: 90px;
-    border-bottom: 1.5px solid rgba(158, 158, 158, 0.43);
+.center {
+    align-self: center;
 }
